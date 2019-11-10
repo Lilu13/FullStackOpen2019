@@ -12,7 +12,7 @@ const Header = (props) => {
 const Part = (props) => {
     return (
         <p>
-        {props.partsA.name} {props.partsA.exercises}
+            {props.partsA.name} {props.partsA.exercises}
         </p> 
     )
 }
@@ -34,7 +34,7 @@ const Total = (props) => {
     return (
         <div>
             <p>
-            Number of exercises {count}
+                Number of exercises {count}
             </p>
         </div>
         
